@@ -23,9 +23,9 @@ const nextConfig = {
     return config;
   },
   // For GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' ? '/sai-portfolio' : undefined,
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : undefined,
   assetPrefix: process.env.NODE_ENV === 'production'
-    ? 'https://saikrupanaikd.github.io/sai-portfolio'
+    ? 'https://sai33e0.github.io/portfolio'
     : undefined,
 };
 
