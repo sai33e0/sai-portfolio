@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
     },
   ];
 
-  const categories = ['All', 'Machine Learning', 'Web Development', 'Computer Vision', 'NLP'];
+  const categories = ['All', 'Web Development', 'AI & ML', 'Full-Stack', 'E-Commerce'];
   const [activeCategory, setActiveCategory] = React.useState('All');
 
   const filteredProjects = activeCategory === 'All'
