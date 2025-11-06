@@ -1,20 +1,20 @@
 // App-wide constants
 
 export const APP_CONFIG = {
-  name: 'SAI KRUPA NAIK D',
-  title: 'AI & ML Enthusiast',
-  subtitle: 'Aspiring 60 LPA Candidate',
-  description: '3rd-year CSE (AI & ML) student passionate about machine learning and web development. Showcasing projects, skills, and journey toward becoming a high-impact developer.',
+  name: 'Sai Krupa Naik D',
+  title: 'AI & ML Developer',
+  subtitle: '3rd Year B.Tech CSE (AI & ML)',
+  description: 'Driven and detail-oriented Computer Science student specializing in Artificial Intelligence and Machine Learning, seeking opportunities to apply data-driven solutions, full-stack development expertise, and innovative problem-solving to real-world challenges.',
   url: process.env.NODE_ENV === 'production'
-    ? 'https://saikrupanaikd.github.io/sai-portfolio'
+    ? 'https://sai33e0.github.io/portfolio'
     : 'http://localhost:3000',
 } as const;
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/saikrupanaikd',
+  github: 'https://github.com/sai33e0',
   linkedin: 'https://linkedin.com/in/saikrupanaikd',
   twitter: 'https://twitter.com/saikrupanaikd',
-  email: 'saikrupanaik.d@example.com',
+  email: 'dhungathusaikrupanaik@gmail.com',
 } as const;
 
 export const NAVIGATION_ITEMS = [
