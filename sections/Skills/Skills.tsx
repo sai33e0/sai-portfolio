@@ -86,6 +86,7 @@ const Skills: React.FC = () => {
     { id: 'databases', name: 'Databases', icon: 'database' },
     { id: 'ai-ml', name: 'AI/ML', icon: 'brain' },
     { id: 'tools', name: 'Tools', icon: 'tools' },
+    { id: 'softskills', name: 'Soft Skills', icon: 'heart' },
   ];
 
   const getFilteredSkills = () => {
