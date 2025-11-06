@@ -46,6 +46,11 @@ import {
   SiMacos,
   SiVisualstudiocode,
   SiFigma,
+  SiPytorch,
+  SiPandas,
+  SiNumpy,
+  SiOpencv,
+  SiRedis,
 } from 'react-icons/si';
 import { HiMenu, HiX, HiArrowDown, HiSun, HiMoon } from 'react-icons/hi';
 
