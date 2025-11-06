@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sai33e0.github.io/portfolio'),
   title: {
     default: 'Sai Krupa Naik D | AI & ML Developer',
     template: '%s | Sai Krupa Naik D'
