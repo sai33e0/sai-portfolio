@@ -2,7 +2,7 @@ import React from 'react';
 
 interface TextProps {
   children: React.ReactNode;
-  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span' | 'small';
+  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span' | 'small' | 'div';
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl' | '6xl';
   weight?: 'light' | 'normal' | 'medium' | 'semibold' | 'bold';
   color?: 'primary' | 'secondary' | 'accent' | 'muted';
@@ -32,6 +32,7 @@ const Text: React.FC<TextProps> = ({
     h5: 'text-lg lg:text-xl',
     h6: 'text-base lg:text-lg',
     p: 'text-base lg:text-lg',
+    div: 'text-base lg:text-lg',
     span: 'text-sm lg:text-base',
     small: 'text-xs lg:text-sm',
   };

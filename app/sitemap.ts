@@ -1,41 +1,40 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://sai33e0.github.io/portfolio';
-
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const base = 'https://sai33e0.github.io/portfolio';
   return [
     {
-      url: baseUrl,
+      url: base,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/#about`,
+      url: `${base}/#about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/#projects`,
+      url: `${base}/#projects`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/#skills`,
+      url: `${base}/#skills`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/#fun`,
+      url: `${base}/#fun`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/#contact`,
+      url: `${base}/#contact`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.8,

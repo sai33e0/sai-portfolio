@@ -12,7 +12,8 @@ export const APP_CONFIG = {
 
 export const SOCIAL_LINKS = {
   github: 'https://github.com/sai33e0',
-  linkedin: 'https://linkedin.com/in/saikrupanaikd',
+  linkedin: 'https://www.linkedin.com/in/dungathu-sai-18b577253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  instagram: 'https://www.instagram.com/saiiiiiiiiiiii_____?igsh=MWdrdzE5ejRxMTliNA==',
   twitter: 'https://twitter.com/saikrupanaikd',
   email: 'dhungathusaikrupanaik@gmail.com',
 } as const;

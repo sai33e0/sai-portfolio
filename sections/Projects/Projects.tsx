@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
     {
       title: 'TIMS - Total Inventory Management System',
       description: 'A comprehensive full-stack inventory management solution built using React, Node.js, Express, and MySQL. Designed for hackathon demonstration with focus on modular architecture, API integration, and efficient UI.',
-      thumbnail: '/images/projects/tims.jpg',
+      thumbnail: 'https://placehold.co/400x300/00C8FF/000000?text=TIMS',
       techStack: ['React', 'Node.js', 'Express', 'MySQL', 'JavaScript'],
       projectUrl: 'https://example.com/tims',
       githubUrl: 'https://github.com/sai33e0/tims',
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
     {
       title: 'Enterprise AI Knowledge Agent Platform',
       description: 'Production-ready AI-driven knowledge management platform enhancing data access and retrieval in enterprises. Integrated NLP-based search, contextual AI assistants, and dynamic content curation using Python and Next.js.',
-      thumbnail: '/images/projects/ai-knowledge-platform.jpg',
+      thumbnail: 'https://placehold.co/400x300/00C8FF/000000?text=AI+Knowledge+Platform',
       techStack: ['Python', 'Next.js', 'TypeScript', 'NLP', 'AI/ML'],
       projectUrl: 'https://example.com/ai-knowledge-platform',
       githubUrl: 'https://github.com/sai33e0/ai-knowledge-platform',
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
     {
       title: 'ShopSmart - Digital Grocery Store Experience',
       description: 'Developed a full-stack grocery e-commerce platform with Angular, Node.js, and MongoDB. Features smart shopping lists, search optimization, and an intuitive, Netflix-themed UI.',
-      thumbnail: '/images/projects/shopsmart.jpg',
+      thumbnail: 'https://placehold.co/400x300/00C8FF/000000?text=ShopSmart',
       techStack: ['Angular', 'Node.js', 'MongoDB', 'TypeScript', 'CSS'],
       projectUrl: 'https://example.com/shopsmart',
       githubUrl: 'https://github.com/sai33e0/shopsmart',

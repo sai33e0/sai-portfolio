@@ -81,7 +81,7 @@ const About: React.FC = () => {
                 <Text variant="h3" weight="semibold" className="mb-4">
                   My Journey
                 </Text>
-                <Text variant="p" color="secondary" className="space-y-4">
+                <Text variant="div" color="secondary" className="space-y-4">
                   <p>
                     Hello! I'm Sai Krupa Naik D, a 3rd-year Computer Science Engineering
                     student specializing in Artificial Intelligence and Machine Learning at

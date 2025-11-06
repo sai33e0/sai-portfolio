@@ -79,7 +79,7 @@ const Hero: React.FC<HeroProps> = ({
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-background">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-background pt-20">
       <div className="container-custom">
         <motion.div
           variants={containerVariants}
