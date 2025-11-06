@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SAI KRUPA NAIK D | AI & ML Portfolio',
-    description: 'AI & ML enthusiast showcasing innovative projects and technical skills.',
+    title: 'Sai Krupa Naik D | AI & ML Developer',
+    description: 'Computer Science student specializing in AI & ML. Full-stack developer passionate about building innovative solutions.',
     images: ['/images/twitter-image.jpg']
   },
   robots: {
