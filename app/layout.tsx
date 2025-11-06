@@ -2,6 +2,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { Metadata } from 'next';
 
+
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -9,7 +11,6 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sai-portfolio.vercel.app'),
   title: {
     default: 'Sai Krupa Naik D | AI & ML Developer',
     template: '%s | Sai Krupa Naik D'
