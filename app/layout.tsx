@@ -55,13 +55,13 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'SAI KRUPA NAIK D',
+  name: 'Sai Krupa Naik D',
   jobTitle: 'AI & ML Developer',
-  description: '3rd-year CSE student passionate about artificial intelligence and machine learning',
-  url: 'https://saikrupanaikd.github.io/sai-portfolio',
+  description: 'Computer Science student specializing in Artificial Intelligence and Machine Learning with expertise in full-stack development',
+  url: 'https://sai33e0.github.io/portfolio',
   sameAs: [
     'https://linkedin.com/in/saikrupanaikd',
-    'https://github.com/saikrupanaikd'
+    'https://github.com/sai33e0'
   ],
   knowsAbout: [
     'Machine Learning',
@@ -69,11 +69,13 @@ const jsonLd = {
     'React',
     'Next.js',
     'TypeScript',
-    'Python'
+    'Python',
+    'Node.js',
+    'Full-Stack Development'
   ],
   alumniOf: {
     '@type': 'EducationalOrganization',
-    name: 'University Name'
+    name: 'Srinivasa Ramanujan Institute of Technology'
   }
 };
 
