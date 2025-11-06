@@ -10,20 +10,20 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'SAI KRUPA NAIK D | AI & ML Portfolio',
-    template: '%s | SAI KRUPA NAIK D'
+    default: 'Sai Krupa Naik D | AI & ML Developer',
+    template: '%s | Sai Krupa Naik D'
   },
-  description: '3rd-year CSE (AI & ML) student passionate about machine learning and web development. Showcasing projects, skills, and journey toward becoming a high-impact developer.',
-  keywords: ['AI developer', 'machine learning', 'web development', 'React', 'Next.js', 'TypeScript', 'Python', 'portfolio'],
-  authors: [{ name: 'SAI KRUPA NAIK D' }],
-  creator: 'SAI KRUPA NAIK D',
+  description: 'Driven and detail-oriented Computer Science student specializing in Artificial Intelligence and Machine Learning. Showcasing projects, skills, and expertise in full-stack development and AI solutions.',
+  keywords: ['AI developer', 'machine learning', 'full-stack development', 'React', 'Next.js', 'TypeScript', 'Python', 'Node.js', 'portfolio'],
+  authors: [{ name: 'Sai Krupa Naik D' }],
+  creator: 'Sai Krupa Naik D',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://saikrupanaikd.github.io/sai-portfolio',
-    title: 'SAI KRUPA NAIK D - AI & ML Portfolio',
-    description: 'AI & ML enthusiast showcasing innovative projects and technical skills.',
-    siteName: 'SAI KRUPA NAIK D Portfolio',
+    url: 'https://sai33e0.github.io/portfolio',
+    title: 'Sai Krupa Naik D - AI & ML Developer Portfolio',
+    description: 'Computer Science student specializing in AI & ML. Full-stack developer with expertise in building scalable, intelligent systems.',
+    siteName: 'Sai Krupa Naik D Portfolio',
     images: [
       {
         url: '/images/og-image.jpg',
