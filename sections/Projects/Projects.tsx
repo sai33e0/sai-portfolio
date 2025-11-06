@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
       thumbnail: 'https://placehold.co/400x300/00C8FF/000000?text=TIMS',
       techStack: ['React', 'Node.js', 'Express', 'MySQL', 'JavaScript'],
       projectUrl: 'https://example.com/tims',
-      githubUrl: 'https://github.com/sai33e0/tims',
+      githubUrl: 'https://github.com/sai33e0/TIM',
       featured: true,
     },
     {
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
       thumbnail: 'https://placehold.co/400x300/00C8FF/000000?text=AI+Knowledge+Platform',
       techStack: ['Python', 'Next.js', 'TypeScript', 'NLP', 'AI/ML'],
       projectUrl: 'https://example.com/ai-knowledge-platform',
-      githubUrl: 'https://github.com/sai33e0/ai-knowledge-platform',
+      githubUrl: 'https://github.com/sai33e0/AI-PDF-CHATBOT',
       featured: true,
     },
     {

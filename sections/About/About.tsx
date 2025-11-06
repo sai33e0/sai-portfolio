@@ -39,7 +39,7 @@ const About: React.FC = () => {
       degree: 'B.Tech in Computer Science and Engineering',
       specialization: 'Artificial Intelligence & Machine Learning',
       institution: 'Srinivasa Ramanujan Institute of Technology',
-      year: '2022 - 2027 (Expected)',
+      year: '2023 - 2027 (Expected)',
       current: '3rd Year',
     },
   ];
