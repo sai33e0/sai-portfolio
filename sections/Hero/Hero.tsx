@@ -12,9 +12,9 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({
-  name = 'SAI KRUPA NAIK D',
-  title = 'AI & ML Enthusiast',
-  subtitle = 'Aspiring 60 LPA Candidate',
+  name = 'Sai Krupa Naik D',
+  title = 'AI & ML Developer',
+  subtitle = '3rd Year B.Tech CSE (AI & ML)',
   profileImage = '/images/profile.jpg',
 }) => {
   const containerVariants = {
