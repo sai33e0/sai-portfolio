@@ -83,10 +83,11 @@ const About: React.FC = () => {
                 </Text>
                 <Text variant="p" color="secondary" className="space-y-4">
                   <p>
-                    Hello! I'm SAI KRUPA NAIK D, a 3rd-year Computer Science Engineering
-                    student specializing in Artificial Intelligence and Machine Learning.
-                    My journey into tech started with curiosity about how things work and has
-                    evolved into a passion for creating innovative solutions.
+                    Hello! I'm Sai Krupa Naik D, a 3rd-year Computer Science Engineering
+                    student specializing in Artificial Intelligence and Machine Learning at
+                    Srinivasa Ramanujan Institute of Technology. My journey into tech started
+                    with curiosity about how things work and has evolved into a passion for
+                    creating innovative solutions.
                   </p>
                   <p>
                     I'm particularly fascinated by the potential of AI and ML to solve
@@ -96,10 +97,10 @@ const About: React.FC = () => {
                     what's possible.
                   </p>
                   <p>
-                    My goal is to become a high-impact developer with a target of achieving
-                    a 60 LPA package within the next 3 years. I'm constantly learning,
-                    experimenting with new technologies, and working on projects that help
-                    me grow both technically and professionally.
+                    I'm driven and detail-oriented, seeking opportunities to apply data-driven
+                    solutions, full-stack development expertise, and innovative problem-solving
+                    to real-world challenges. Passionate about building scalable, intelligent
+                    systems that enhance productivity and user experience.
                   </p>
                 </Text>
               </Card>
