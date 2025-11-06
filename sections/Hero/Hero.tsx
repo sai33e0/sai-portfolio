@@ -143,9 +143,9 @@ const Hero: React.FC<HeroProps> = ({
           {/* Brief Description */}
           <motion.div variants={itemVariants} className="max-w-2xl mx-auto">
             <Text variant="p" color="secondary" className="text-body">
-              3rd-year CSE (AI & ML) student passionate about building innovative
-              solutions and exploring the frontiers of artificial intelligence
-              and machine learning.
+              Driven and detail-oriented Computer Science student specializing in
+              AI & ML. Passionate about building scalable, intelligent systems that
+              enhance productivity and user experience.
             </Text>
           </motion.div>
 
