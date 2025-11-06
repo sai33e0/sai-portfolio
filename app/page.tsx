@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Navigation, Footer } from '../components';
 import { Hero, About, Projects, Skills, Fun, Contact } from '../sections';
