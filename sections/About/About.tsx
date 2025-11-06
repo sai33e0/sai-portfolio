@@ -26,20 +26,20 @@ const About: React.FC = () => {
   };
 
   const highlights = [
-    '🎯 Target: 60 LPA within 3 years',
-    '🤖 AI & ML Enthusiast',
+    '🎯 Full-Stack Developer',
+    '🤖 AI & ML Specialist',
     '💡 Problem Solver',
     '🚀 Fast Learner',
     '👥 Team Player',
-    '📚 Continuous Learning',
+    '📚 Open Source Contributor',
   ];
 
   const education = [
     {
-      degree: 'B.Tech in Computer Science Engineering',
+      degree: 'B.Tech in Computer Science and Engineering',
       specialization: 'Artificial Intelligence & Machine Learning',
-      institution: 'University Name',
-      year: '2022 - 2026 (Expected)',
+      institution: 'Srinivasa Ramanujan Institute of Technology',
+      year: '2022 - 2027 (Expected)',
       current: '3rd Year',
     },
   ];
