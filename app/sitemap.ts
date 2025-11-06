@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://saikrupanaikd.github.io/sai-portfolio';
+const baseUrl = 'https://sai33e0.github.io/portfolio';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
