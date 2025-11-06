@@ -25,6 +25,8 @@ import {
   FaGoogle,
   FaDatabase,
   FaMobileAlt,
+  FaHtml5,
+  FaCss3Alt,
 } from 'react-icons/fa';
 import {
   SiNextdotjs,
