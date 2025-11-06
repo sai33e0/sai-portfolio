@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
   const socialLinks = [
     {
       platform: 'email' as const,
-      url: 'mailto:saikrupanaik.d@example.com',
+      url: 'mailto:dhungathusaikrupanaik@gmail.com',
       label: 'Email',
     },
     {
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
     },
     {
       platform: 'github' as const,
-      url: 'https://github.com/saikrupanaikd',
+      url: 'https://github.com/sai33e0',
       label: 'GitHub',
     },
     {
@@ -90,8 +90,8 @@ const Contact: React.FC = () => {
     {
       icon: 'email',
       label: 'Email',
-      value: 'saikrupanaik.d@example.com',
-      href: 'mailto:saikrupanaik.d@example.com',
+      value: 'dhungathusaikrupanaik@gmail.com',
+      href: 'mailto:dhungathusaikrupanaik@gmail.com',
     },
     {
       icon: 'phone',
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
     {
       icon: 'location',
       label: 'Location',
-      value: 'India',
+      value: 'Bengaluru, India',
       href: '#',
     },
   ];
