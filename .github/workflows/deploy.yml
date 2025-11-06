@@ -36,6 +36,7 @@ jobs:
       run: npm run build
       env:
         NODE_ENV: production
+        NEXT_PUBLIC_SITE_URL: https://sai33e0.github.io/portfolio
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
