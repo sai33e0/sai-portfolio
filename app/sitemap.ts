@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = 'https://sai33e0.github.io/portfolio';
+  const base = 'https://sai-portfolio.vercel.app';
   return [
     {
       url: base,

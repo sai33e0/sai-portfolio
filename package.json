@@ -7,8 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages --dist out --branch gh-pages --dotfiles --no-history",
-    "deploy:force": "git branch -D gh-pages && git push origin --delete gh-pages && npm run deploy",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {

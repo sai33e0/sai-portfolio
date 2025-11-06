@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sai33e0.github.io/portfolio'),
+  metadataBase: new URL('https://sai-portfolio.vercel.app'),
   title: {
     default: 'Sai Krupa Naik D | AI & ML Developer',
     template: '%s | Sai Krupa Naik D'
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://sai33e0.github.io/portfolio',
+    url: 'https://sai-portfolio.vercel.app',
     title: 'Sai Krupa Naik D - AI & ML Developer Portfolio',
     description: 'Computer Science student specializing in AI & ML. Full-stack developer with expertise in building scalable, intelligent systems.',
     siteName: 'Sai Krupa Naik D Portfolio',
@@ -59,7 +59,7 @@ const jsonLd = {
   name: 'Sai Krupa Naik D',
   jobTitle: 'AI & ML Developer',
   description: 'Computer Science student specializing in Artificial Intelligence and Machine Learning with expertise in full-stack development',
-  url: 'https://sai33e0.github.io/portfolio',
+  url: 'https://sai-portfolio.vercel.app',
   sameAs: [
     'https://linkedin.com/in/saikrupanaikd',
     'https://github.com/sai33e0'

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://sai33e0.github.io/portfolio/sitemap.xml',
+    sitemap: 'https://sai-portfolio.vercel.app/sitemap.xml',
   };
 }
