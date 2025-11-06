@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-secondary;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-secondary/30 hover:bg-secondary/50 rounded-full;
+  }
+}
+
+@layer components {
+  /* Utility classes */
+  .container-custom {
+    @apply max-w-6xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+
+  .heading-primary {
+    @apply font-bold text-primary text-2xl lg:text-4xl mb-4 lg:mb-6;
+  }
+
+  .heading-secondary {
+    @apply font-semibold text-primary text-xl lg:text-2xl mb-3 lg:mb-4;
+  }
+
+  .text-body {
+    @apply text-base lg:text-lg text-secondary leading-relaxed;
+  }
+
+  .button-primary {
+    @apply bg-accent text-primary hover:bg-accent/90 transition-colors duration-200 px-6 py-3 rounded-lg font-medium;
+  }
+
+  .button-secondary {
+    @apply border border-primary text-primary hover:bg-primary hover:text-background transition-colors duration-200 px-6 py-3 rounded-lg font-medium;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-background border border-secondary/20 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300;
+  }
+
+  .card-hover {
+    @apply hover:scale-[1.02] hover:shadow-xl transition-all duration-300 cursor-pointer;
+  }
+
+  /* Navigation styles */
+  .nav-desktop {
+    @apply fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-secondary/10;
+  }
+
+  .nav-overlay {
+    @apply fixed top-0 left-0 right-0 bottom-0 bg-black/95 z-40 flex flex-col justify-center items-center;
+  }
+
+  /* Project grid */
+  .project-grid {
+    @apply grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8;
+  }
+
+  /* Skill grid */
+  .skill-grid {
+    @apply grid grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6;
+  }
+
+  /* Form styles */
+  .form-input {
+    @apply w-full px-4 py-3 border border-secondary/20 rounded-lg focus:outline-none focus:border-accent transition-colors duration-200 bg-background;
+  }
+
+  .form-textarea {
+    @apply w-full px-4 py-3 border border-secondary/20 rounded-lg focus:outline-none focus:border-accent transition-colors duration-200 bg-background resize-none h-32;
+  }
+
+  /* Animation classes */
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  /* Mobile responsive text */
+  .responsive-heading {
+    @apply text-3xl lg:text-6xl font-bold text-primary;
+  }
+
+  .responsive-subheading {
+    @apply text-lg lg:text-xl text-secondary mb-6 lg:mb-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent;
+  }
+
+  .shadow-glow {
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+  }
+
+  .border-gradient {
+    border-image: linear-gradient(45deg, #00C8FF, transparent) 1;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
