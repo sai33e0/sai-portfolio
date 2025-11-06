@@ -172,7 +172,7 @@ const Hero: React.FC<HeroProps> = ({
           {/* Social Links */}
           <motion.div variants={ctaVariants} className="flex gap-4 pt-2">
             <a
-              href="https://github.com/saikrupanaikd"
+              href="https://github.com/sai33e0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-accent transition-colors duration-200"
@@ -190,7 +190,7 @@ const Hero: React.FC<HeroProps> = ({
               <Icon name="linkedin" size="lg" />
             </a>
             <a
-              href="mailto:saikrupanaik.d@example.com"
+              href="mailto:dhungathusaikrupanaik@gmail.com"
               className="text-primary hover:text-accent transition-colors duration-200"
               aria-label="Email"
             >
